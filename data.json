@@ -1,0 +1,55 @@
+[
+    {
+        "number":1,
+        "name": "MAMIARISOA",
+        "firstname": "Aline",
+        "adress": "Ambositra",
+        "cin":"203000000000",
+        "dateOfBirth": "13 avril 1978",
+        "photo": "/images/avatar2.webp",
+        "familyStatus": "Mariée",
+        "nationality": "Malagasy",
+        "email":"Aline@gmail.com",
+        "phoneNumber":"0340000000"
+    },
+    {
+        "number":2,
+        "name": "RADALOSON",
+        "firstname": "Mara Wilker",
+        "adress": "Ambositra",
+        "cin":"203000000000",
+        "dateOfBirth": "07 juillet 1977",
+        "photo": "/images/avatar2.jpg",
+        "familyStatus": "Marié",
+        "nationality": "Malagasy",
+        "email":"Wilker@gmail.com",
+        "phoneNumber":"0340000000"
+    },
+    {
+        "number":3,
+        "name": "ANDRIANARIVONY",
+        "firstname": "Andrinirina Jacques",
+        "adress": "Ambositra",
+        "cin":"203000000000",
+        "dateOfBirth": " mars 1981",
+        "photo": "/images/avatar2.jpg",
+        "familyStatus": "Marié",
+        "nationality": "Malagasy",
+        "email":"Jacques@gmail.com",
+        "phoneNumber":"0340000000"
+    },
+    {
+        "number":4,
+        "name": "RANARIVELO",
+        "firstname": "Ny Andry",
+        "adress": "Ambositra",
+        "cin":"203000000000",
+        "dateOfBirth": "12 javier 1972",
+        "photo": "/images/avatar3.jpg",
+        "familyStatus": "Marié",
+        "nationality": "Malagasy",
+        "email":"NyAndry@gmail.com",
+        "phoneNumber":"0340000000"
+    }
+
+]
