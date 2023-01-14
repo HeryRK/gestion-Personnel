@@ -5,6 +5,7 @@ import morgan from 'morgan';
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import personalRouter from './routes/personalRoutes.js';
+import serviceRoutes from './routes/serviceRoutes.js';
 //require('colors');
 
 dotenv.config();
@@ -27,6 +28,7 @@ app.use(morgan("dev"));
 
 //Routes
 app.use("/api/personals/", personalRouter);
+app.use("/api/services/",  serviceRoutes);
 
 
 //Create PORT

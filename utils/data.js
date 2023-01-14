@@ -1,3 +1,5 @@
+import images from "../images/avatar2.jpg"
+
 const personals = [
     {   
         number:1,
@@ -32,7 +34,7 @@ const personals = [
         adress: "Ambositra",
         cin:"203000000000",
         dateOfBirth: " mars 1981",
-        photo: "/images/avatar2.jpg",
+        photo: "./",
         familyStatus: "Marié",
         nationality: "Malagasy",
         email:"Jacques@gmail.com",

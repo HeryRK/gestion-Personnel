@@ -47,7 +47,16 @@ const personalSchema = new Schema({
         type: String,
         required: true
     },
-    service:{type:mongoose.Types.ObjectId, ref:"Service"}
+    sexe: {
+        type: String,
+        required: true
+    },
+    service:{type:mongoose.Types.ObjectId, ref:"Service"},
+    degree: {type:mongoose.Types.ObjectId, ref:"Degree"},
+    contract: {type:mongoose.Types.ObjectId, ref:"Contract"},
+    mission: { type: [mongoose.Types.ObjectId] , ref:"Mission"},
+    payment: {type: mongoose.Types.ObjectId, ref:"Payment"},
+    vacation: {type: mongoose.Types.ObjectId, ref:"Vacation"}
 }, {
     timestamps: true,
 
