@@ -4,16 +4,20 @@ const Schema = mongoose.Schema
 
 const contractSchema = new Schema({
     name:{
-
+        type : String,
+        required:true
     },
     description:{
-
+        type : String,
+        required:true
     },
     dateBegin: {
-
+        type : String,
+        required:true
     },
     dateEnding: {
-
+        type : String,
+        required:true
     },
     owner:{
         type : mongoose.Types.ObjectId, ref:"Personal",

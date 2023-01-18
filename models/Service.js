@@ -12,7 +12,7 @@ const serviceSchema = new Schema({
         required: true
     },
     ownerService: {
-        type:mongoose.Types.ObjectId, ref:"Personal"
+        type: mongoose.Types.ObjectId, ref:"Personal"
     }
 })
 

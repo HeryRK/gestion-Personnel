@@ -18,7 +18,7 @@ const missionSchema = new Schema({
     owner: {
         type:mongoose.Types.ObjectId, ref:"Personal"
     }
-})
+});
 
 const Mission = mongoose.model("Mission", missionSchema);
 
