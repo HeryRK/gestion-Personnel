@@ -1,8 +1,12 @@
 import express from "express";
-import { getServiceController } from "../controllers/serviceController.js";
+import { createService, deleteService, getService, getServices, updateService } from "../controllers/serviceController.js";
 
 const serviceRouter = express.Router();
 
-serviceRouter.get("/getService", getServiceController);
+serviceRouter.get("/", getServices);
+serviceRouter.get("/:id", getService);
+serviceRouter.post("/", createService);
+serviceRouter.put("/:id", updateService);
+serviceRouter.delete("/:id", deleteService);
 
 export default serviceRouter;

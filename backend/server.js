@@ -35,6 +35,7 @@ app.use("/api/services/",  serviceRouter);
 app.use("/api/missions/", missionRouter);
 app.use("/api/departement/", departementRouter);
 app.use("/api/user/", UserRouter);
+app.use("/api/service/", serviceRouter);
 
 
 //Create PORT

@@ -7,12 +7,12 @@ const serviceSchema = new Schema({
         type: String,
         required: true
     },
-    codeService: {
+    description: {
         type: String,
         required: true
     },
-    ownerService: {
-        type: mongoose.Types.ObjectId, ref:"Personal"
+    departement: {
+        type: mongoose.Types.ObjectId, ref:"Departement"
     }
 })
 
